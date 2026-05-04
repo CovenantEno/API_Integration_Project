@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "api_integration_project/wsgi.py",
+      "src": "API_Integration/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api_integration_project/wsgi.py"
+      "dest": "API_Integration/wsgi.py"
     }
   ]
 }
